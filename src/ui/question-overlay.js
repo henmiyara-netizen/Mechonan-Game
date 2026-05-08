@@ -2,6 +2,7 @@
 
 import { sfx } from "../audio/sfx-manager.js";
 import { showOverlay, hideOverlay } from "./screens.js";
+import { showConfirm } from "./modal.js";
 
 const HEB = ["א", "ב", "ג", "ד"];
 const overlay = document.getElementById("screen-question");
@@ -20,10 +21,42 @@ const TOPIC_LABEL = {
   oddOneOut: "יוצא דופן",
 };
 
-export function showQuestion({ question, counterLabel = "" }) {
+export function showQuestion({ question, counterLabel = "", allowExit = false, exitMessage = null }) {
   return new Promise((resolve) => {
     topicEl.textContent = TOPIC_LABEL[question.topic] || question.topic;
     counterEl.textContent = counterLabel;
+    // Exit button (only when allowExit) — placed in the header
+    let exitBtn = document.getElementById("question-exit-btn");
+    if (allowExit) {
+      if (!exitBtn) {
+        exitBtn = document.createElement("button");
+        exitBtn.id = "question-exit-btn";
+        exitBtn.className = "question__exit";
+        exitBtn.type = "button";
+        exitBtn.setAttribute("aria-label", "יציאה");
+        document.querySelector(".question").appendChild(exitBtn);
+      }
+      exitBtn.textContent = "← יציאה";
+      exitBtn.style.display = "";
+      exitBtn.onclick = async () => {
+        const ok = await showConfirm({
+          title: "יציאה מהתרגול",
+          message: exitMessage || "אם תצא עכשיו ירד לך מטבע אחד. בטוח שאתה רוצה לצאת?",
+          confirmLabel: "כן, לצאת",
+          cancelLabel: "להישאר",
+          danger: true,
+        });
+        if (ok) {
+          if (resolved) return;
+          resolved = true;
+          hideOverlay("question");
+          sfx.play("ui.back");
+          resolve({ exited: true, correct: false, choiceIndex: -1 });
+        }
+      };
+    } else if (exitBtn) {
+      exitBtn.style.display = "none";
+    }
     // Body: image-based or text-based
     bodyEl.innerHTML = "";
     if (question.bodyImage) {
@@ -46,7 +79,7 @@ export function showQuestion({ question, counterLabel = "" }) {
     feedbackEl.textContent = "";
     feedbackEl.className = "question__feedback";
 
-    let resolved = false;
+    var resolved = false;
     question.choices.forEach((choice, idx) => {
       const li = document.createElement("li");
       const btn = document.createElement("button");

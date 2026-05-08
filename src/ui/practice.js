@@ -113,7 +113,25 @@ async function runPracticeSession(topic, onClose) {
     }
 
     const counterLabel = `${topic.label} · 🪙 ${coins}`;
-    const res = await showQuestion({ question: q, counterLabel });
+    const res = await showQuestion({
+      question: q,
+      counterLabel,
+      allowExit: true,
+      exitMessage: "אם תצא עכשיו ירד לך מטבע אחד. בטוח שאתה רוצה לצאת?",
+    });
+
+    // Player chose to exit mid-question — penalize and end session
+    if (res.exited) {
+      addCoins(-1);
+      await showAlert({
+        title: "יצאת מהתרגול",
+        message: `יצאת באמצע השאלה — ירד לך מטבע אחד.\nענית בסה"כ ${stats.asked} שאלות (${stats.correct} נכונות).`,
+        confirmLabel: "סגור",
+      });
+      onClose?.();
+      return;
+    }
+
     stats.asked += 1;
     recordAnswer({ topic: q.topic, questionId: q.id, correct: res.correct });
     if (res.correct) {
@@ -122,19 +140,17 @@ async function runPracticeSession(topic, onClose) {
       stats.wrong += 1; stats.earned -= 1; addCoins(-1);
     }
 
-    // Brief continue prompt every 3 questions, otherwise auto-continue
-    if (stats.asked % 3 === 0) {
-      const newCoins = getActiveProfile()?.progress.coins ?? 0;
-      const cont = await showConfirm({
-        title: "להמשיך?",
-        message: `${stats.asked} שאלות, ${stats.correct} נכונות. רווח: ${stats.earned >= 0 ? "+" : ""}${stats.earned} מטבעות (סה"כ ${newCoins}). להמשיך?`,
-        confirmLabel: "עוד שאלה!",
-        cancelLabel: "סגור",
-      });
-      if (!cont) {
-        onClose?.();
-        return;
-      }
+    // After EVERY question — ask continue or stop
+    const newCoins = getActiveProfile()?.progress.coins ?? 0;
+    const cont = await showConfirm({
+      title: res.correct ? "תשובה נכונה! 🎉" : "טעית — נסה שוב בשאלה הבאה",
+      message: `ענית ${stats.asked} שאלות (${stats.correct} נכונות).\nרווח: ${stats.earned >= 0 ? "+" : ""}${stats.earned} מטבעות. סך הכל יש לך ${newCoins} 🪙.\nלהמשיך לשאלה נוספת?`,
+      confirmLabel: "עוד שאלה!",
+      cancelLabel: "סיום תרגול",
+    });
+    if (!cont) {
+      onClose?.();
+      return;
     }
   }
 }

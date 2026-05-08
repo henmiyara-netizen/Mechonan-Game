@@ -288,6 +288,23 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 .question__feedback { min-height: 28px; text-align: center; font-weight: 700; }
 .question__feedback--good { color: var(--good); }
 .question__feedback--bad { color: var(--bad); }
+.question__exit {
+  position: absolute;
+  top: 14px;
+  inset-inline-start: 14px;
+  background: rgba(255, 91, 91, 0.15);
+  color: var(--bad);
+  border: 1px solid var(--bad);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .15s;
+  font-family: inherit;
+}
+.question__exit:hover { background: rgba(255, 91, 91, 0.3); }
+.question { position: relative; }
 
 /* ===== Modal ===== */
 .modal { position: fixed; inset: 0; z-index: 1000; display: grid; place-items: center; }
