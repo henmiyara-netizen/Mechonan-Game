@@ -1,0 +1,25 @@
+{
+  "_note": "Runtime behaviors live in src/entities/enemy.js (ENEMY_TYPES map). This file is the metadata catalog for the bestiary UI.",
+  "enemies": [
+    { "id": "drone", "name": "סקאוט קטן", "description": "אויב בסיסי, נע ישר, חלש." },
+    { "id": "zigzag", "name": "פתלתול", "description": "נע בזיגזג, קצת קשה לפגיעה." },
+    { "id": "fast", "name": "מהיר-בזק", "description": "מהיר מאוד, פגיעה מטה במהירות." },
+    { "id": "armored", "name": "ממוגן", "description": "ספיגה גבוהה. צריך כמה פגיעות." },
+    { "id": "tank", "name": "טנק חלל", "description": "ספיגה גבוהה מאוד, איטי." },
+    { "id": "shooter", "name": "יורה", "description": "יורה כדורי אנרגיה למטה." },
+    { "id": "zigShooter", "name": "יורה-פתלתול", "description": "נע בזיגזג ויורה." },
+    { "id": "diver", "name": "צולל", "description": "ריחוף קצר, אז צלילה ישירה לעבר השחקן." },
+    { "id": "splitter", "name": "מפצל", "description": "כשמת — מפצל לשני סקאוטים קטנים." },
+    { "id": "kamikaze", "name": "קמיקזה", "description": "רץ ישר אל החללית, מתפוצץ במגע." },
+    { "id": "swarmer", "name": "נחיל", "description": "אויב קטן מהיר שנע בתבנית גלית." },
+    { "id": "bomber", "name": "מפציץ", "description": "אויב כבד שיורה מטח של 3 כדורים." },
+    { "id": "sniper", "name": "צלף", "description": "מכוון את הירי שלו ישר אל החללית." },
+    { "id": "speedy", "name": "ברק", "description": "אויב מהיר במיוחד אך חלש." },
+    { "id": "shielded", "name": "ממוגן-על", "description": "ספיגה גבוהה מאוד עם מגן אנרגיה." },
+    { "id": "hovering", "name": "מרחף", "description": "מרחף במקום ונע מצד לצד." },
+    { "id": "pulser", "name": "פולסר", "description": "יורה מטח של 8 כדורים בכל הכיוונים." },
+    { "id": "ghost", "name": "רוח", "description": "נראה ונעלם, נע בגלים רחבים." },
+    { "id": "juggernaut", "name": "משוריין-על", "description": "ענק עם 10 חיים — קשה במיוחד להריגה." },
+    { "id": "miniBoss", "name": "מיני-בוס", "description": "אויב חזק שמרחף ויורה מניפות של ירי." }
+  ]
+}

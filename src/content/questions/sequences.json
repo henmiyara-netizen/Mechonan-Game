@@ -1,0 +1,79 @@
+{
+  "topic": "sequences",
+  "topicLabel": "סְדָרוֹת בְּצוּרוֹת",
+  "source": "מכון מיחונן — סימולציה מלאה (קובץ 2, ע' 18-19). תשובות אומתו מול מפתח התשובות הרשמי (קובץ 5).",
+  "_verificationStatus": "All correctIndex values verified against the official answer key. Question images are direct crops from the original scan.",
+  "_imageQuestions": true,
+  "questions": [
+    {
+      "id": "seq.q1",
+      "body": "מְצָא אֶת הַמִּסְפָּר הַחָסֵר לְפִי הַסְּדָרָה.",
+      "bodyImage": "./assets/questions/sequences/q01.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 2
+    },
+    {
+      "id": "seq.q2",
+      "body": "מְצָא אֶת הַמִּסְפָּר הַחָסֵר לְפִי הַסְּדָרָה.",
+      "bodyImage": "./assets/questions/sequences/q02.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 1
+    },
+    {
+      "id": "seq.q3",
+      "body": "מְצָא אֶת הַמִּסְפָּר הַחָסֵר לְפִי הַסְּדָרָה.",
+      "bodyImage": "./assets/questions/sequences/q03.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 1
+    },
+    {
+      "id": "seq.q4",
+      "body": "מְצָא אֶת הַמִּסְפָּר הַחָסֵר לְפִי הַסְּדָרָה.",
+      "bodyImage": "./assets/questions/sequences/q04.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 3
+    },
+    {
+      "id": "seq.q5",
+      "body": "מְצָא אֶת הַמִּסְפָּר הַחָסֵר לְפִי הַסְּדָרָה.",
+      "bodyImage": "./assets/questions/sequences/q05.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 1
+    },
+    {
+      "id": "seq.q6",
+      "body": "מְצָא אֶת הַמִּסְפָּר הַחָסֵר לְפִי הַסְּדָרָה.",
+      "bodyImage": "./assets/questions/sequences/q06.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 2
+    },
+    {
+      "id": "seq.q7",
+      "body": "מְצָא אֶת הַמִּסְפָּר הַחָסֵר לְפִי הַסְּדָרָה.",
+      "bodyImage": "./assets/questions/sequences/q07.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 0
+    },
+    {
+      "id": "seq.q8",
+      "body": "מְצָא אֶת הַמִּסְפָּר הַחָסֵר לְפִי הַסְּדָרָה.",
+      "bodyImage": "./assets/questions/sequences/q08.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 2
+    },
+    {
+      "id": "seq.q9",
+      "body": "מְצָא אֶת הַמִּסְפָּר הַחָסֵר לְפִי הַסְּדָרָה.",
+      "bodyImage": "./assets/questions/sequences/q09.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 2
+    },
+    {
+      "id": "seq.q10",
+      "body": "מְצָא אֶת הַמִּסְפָּר הַחָסֵר לְפִי הַסְּדָרָה.",
+      "bodyImage": "./assets/questions/sequences/q10.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 3
+    }
+  ]
+}

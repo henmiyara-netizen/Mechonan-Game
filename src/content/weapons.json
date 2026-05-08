@@ -1,0 +1,15 @@
+{
+  "_note": "Runtime canonical definitions live in src/entities/player.js (WEAPONS map). This file is the metadata catalog used for UI labels, descriptions, and unlock progression.",
+  "weapons": [
+    { "id": "single", "name": "ירי בודד", "description": "ירי קדמי יציב, נשק התחלתי.", "unlockedAt": 1 },
+    { "id": "double", "name": "ירי כפול", "description": "שני קני ירי במקביל.", "unlockedAt": 3 },
+    { "id": "triple", "name": "ירי משולש", "description": "ירי קדמי + שני צדדיים מתפזרים.", "unlockedAt": 5 },
+    { "id": "laser", "name": "לייזר רציף", "description": "קרן לייזר ארוכה ומהירה במיוחד.", "unlockedAt": 7 },
+    { "id": "super", "name": "סופר-ירי", "description": "חמישה כדורי פלסמה במניפה רחבה.", "unlockedAt": 10 },
+    { "id": "rapid", "name": "ירי מהיר", "description": "ירי בודד ומהיר במיוחד.", "unlockedAt": 13 },
+    { "id": "spread5", "name": "מניפה רחבה", "description": "5 כדורים בפיזור רחב, איטי אך עוצמתי.", "unlockedAt": 16 },
+    { "id": "pierce", "name": "חודר", "description": "כדור אחד שעובר דרך מספר אויבים.", "unlockedAt": 20 },
+    { "id": "flank", "name": "אגף משולש", "description": "שני כדורים מהצדדים + אחד מקדימה.", "unlockedAt": 23 },
+    { "id": "storm", "name": "סופת אש", "description": "7 כדורים חזקים במניפה.", "unlockedAt": 27 }
+  ]
+}

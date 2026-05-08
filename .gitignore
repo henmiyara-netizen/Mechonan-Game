@@ -1,0 +1,28 @@
+# Private scans (copyrighted booklet content from mihonan.co.il — for personal use only)
+_AllFilesApp/scans/
+_scan_extract/
+_scan_pages/
+_scan_pages_small/
+
+# Playwright test artifacts
+.playwright-mcp/
+*.png
+!assets/**/*.png
+!assets/sprites/*.png
+!src/content/**/*.png
+
+# Node (defensive — not used currently)
+node_modules/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local logs / cache
+*.log

@@ -1,0 +1,114 @@
+{
+  "topic": "shapes",
+  "topicLabel": "צוּרוֹת",
+  "source": "מכון מיחונן — סימולציה מלאה (קובץ 2, ע' 14-17). תשובות אומתו מול מפתח התשובות הרשמי (קובץ 5).",
+  "_verificationStatus": "All correctIndex values verified against the official answer key. Question images are direct crops from the original scan.",
+  "_imageQuestions": true,
+  "questions": [
+    {
+      "id": "shapes.q1",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q01.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 3
+    },
+    {
+      "id": "shapes.q2",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q02.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 3
+    },
+    {
+      "id": "shapes.q3",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q03.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 0
+    },
+    {
+      "id": "shapes.q4",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q04.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 2
+    },
+    {
+      "id": "shapes.q5",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q05.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 2
+    },
+    {
+      "id": "shapes.q6",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q06.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 1
+    },
+    {
+      "id": "shapes.q7",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q07.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 1
+    },
+    {
+      "id": "shapes.q8",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q08.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 1
+    },
+    {
+      "id": "shapes.q9",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q09.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 0
+    },
+    {
+      "id": "shapes.q10",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q10.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 0
+    },
+    {
+      "id": "shapes.q11",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה הַמַּתְאִימָה לְפִי הָאֲנָלוֹגְיָה הַוִּיזוּאָלִית.",
+      "bodyImage": "./assets/questions/shapes/q11.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 2
+    },
+    {
+      "id": "shapes.q12",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה שֶׁמַּשְׁלִימָה אֶת הַתַּבְנִית.",
+      "bodyImage": "./assets/questions/shapes/q12.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 2
+    },
+    {
+      "id": "shapes.q13",
+      "body": "בָּחַר אֶת הַתְּשׁוּבָה שֶׁמַּשְׁלִימָה אֶת הַתַּבְנִית.",
+      "bodyImage": "./assets/questions/shapes/q13.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 3
+    },
+    {
+      "id": "shapes.q14",
+      "body": "מְצָא אֶת הַצּוּרָה הַיּוֹצֵאת דֹּפֶן.",
+      "bodyImage": "./assets/questions/shapes/q14.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 2
+    },
+    {
+      "id": "shapes.q15",
+      "body": "מְצָא אֶת הַצּוּרָה הַיּוֹצֵאת דֹּפֶן.",
+      "bodyImage": "./assets/questions/shapes/q15.png",
+      "choices": ["א", "ב", "ג", "ד"],
+      "correctIndex": 0
+    }
+  ]
+}

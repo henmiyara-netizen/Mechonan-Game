@@ -1,0 +1,107 @@
+{
+  "_note": "Each ship has unique base stats, an optional special ability, and an unlock condition. Abilities are passive flags applied in player.js.",
+  "rarityColors": {
+    "common":    { "border": "#9aa3c4", "bg": "#1a2236", "label": "רגיל" },
+    "rare":      { "border": "#4fa3ff", "bg": "#142440", "label": "נדיר" },
+    "epic":      { "border": "#b35bff", "bg": "#21154a", "label": "אפי" },
+    "legendary": { "border": "#ffd24f", "bg": "#3a2a05", "label": "אגדי" }
+  },
+  "ships": [
+    {
+      "id": "scout",
+      "name": "סקאוט",
+      "rarity": "common",
+      "emoji": "🛸",
+      "color": "#4fa3ff",
+      "description": "החללית ההתחלתית. מאוזנת וידידותית — מתאימה לכל סוגי השלבים.",
+      "baseStats": { "speed": 380, "lives": 5, "damageBonus": 0, "fireRateMul": 1.0, "radius": 18 },
+      "ability": "none",
+      "abilityDescription": "ללא יכולת מיוחדת.",
+      "unlock": { "type": "default", "label": "פתוחה מההתחלה" }
+    },
+    {
+      "id": "lightning",
+      "name": "ברק",
+      "rarity": "common",
+      "emoji": "⚡",
+      "color": "#4fff9c",
+      "description": "מהירה מאוד וקצב ירי גבוה — אבל פחות חיים.",
+      "baseStats": { "speed": 480, "lives": 4, "damageBonus": 0, "fireRateMul": 0.55, "radius": 16 },
+      "ability": "none",
+      "abilityDescription": "אין יכולת — היתרון הוא הסטטיסטיקות.",
+      "unlock": { "type": "coins", "cost": 80, "label": "80 מטבעות" }
+    },
+    {
+      "id": "guardian",
+      "name": "שומר",
+      "rarity": "rare",
+      "emoji": "🛡️",
+      "color": "#ffd24f",
+      "description": "איטית אך עמידה. מתחילה כל שלב עם מגן ארוך מהרגיל.",
+      "baseStats": { "speed": 320, "lives": 8, "damageBonus": 0, "fireRateMul": 1.1, "radius": 20 },
+      "ability": "extraStartShield",
+      "abilityDescription": "מתחילה כל שלב עם מגן 5 שניות (במקום 2).",
+      "unlock": { "type": "coins", "cost": 200, "label": "200 מטבעות" }
+    },
+    {
+      "id": "spreader",
+      "name": "מתפזר",
+      "rarity": "rare",
+      "emoji": "🌟",
+      "color": "#ff8a4f",
+      "description": "כל יריה הופכת ל-3 יריות מתפזרות — מכסה שטח רחב.",
+      "baseStats": { "speed": 380, "lives": 5, "damageBonus": 0, "fireRateMul": 1.0, "radius": 18 },
+      "ability": "extraSpread",
+      "abilityDescription": "כל יריה מקבלת 2 יריות בונוס מהצדדים.",
+      "unlock": { "type": "coins", "cost": 350, "label": "350 מטבעות" }
+    },
+    {
+      "id": "plasma",
+      "name": "פלזמה",
+      "rarity": "epic",
+      "emoji": "💎",
+      "color": "#b35bff",
+      "description": "יריות חודרות שעוברות דרך אויבים. מצוין נגד שורות.",
+      "baseStats": { "speed": 380, "lives": 5, "damageBonus": 1, "fireRateMul": 1.0, "radius": 18 },
+      "ability": "piercing",
+      "abilityDescription": "יריות חודרות עד 2 אויבים בכל שורה.",
+      "unlock": { "type": "coins", "cost": 600, "label": "600 מטבעות" }
+    },
+    {
+      "id": "phantom",
+      "name": "פאנטום",
+      "rarity": "epic",
+      "emoji": "👻",
+      "color": "#9ab5d8",
+      "description": "אחרי כל פגיעה — אי-פגיעות מורחבת לזמן ארוך.",
+      "baseStats": { "speed": 400, "lives": 4, "damageBonus": 0, "fireRateMul": 1.0, "radius": 17 },
+      "ability": "extendedInvuln",
+      "abilityDescription": "אי-פגיעות אחרי פגיעה: 3 שניות (במקום 1.5).",
+      "unlock": { "type": "achievement", "id": "level15Perfect", "label": "✨ סיים שלב 15 ללא איבוד אף חיים" }
+    },
+    {
+      "id": "titan",
+      "name": "טייטן",
+      "rarity": "legendary",
+      "emoji": "👑",
+      "color": "#ffd24f",
+      "description": "ענק עם 7 חיים, נזק כפול. יורה משני נשקים בו-זמנית.",
+      "baseStats": { "speed": 320, "lives": 7, "damageBonus": 1, "fireRateMul": 1.0, "radius": 22 },
+      "ability": "dualWeapon",
+      "abilityDescription": "כל יריה נורית פעמיים בקני יציב נפרדים.",
+      "unlock": { "type": "coinsAndRank", "cost": 1000, "rank": "captain", "label": "1000 מטבעות + דרגת סרן" }
+    },
+    {
+      "id": "supernova",
+      "name": "סופר-נובה",
+      "rarity": "legendary",
+      "emoji": "🌌",
+      "color": "#ff5b8a",
+      "description": "החללית האולטימטיבית. פעם בשלב — פצצת על שנוקה את המסך.",
+      "baseStats": { "speed": 380, "lives": 5, "damageBonus": 1, "fireRateMul": 1.0, "radius": 19 },
+      "ability": "autoNuke",
+      "abilityDescription": "פעם אחת בכל שלב, אוטומטית: כשהחיים יורדים ל-1, פצצת על מנקה את המסך.",
+      "unlock": { "type": "achievement", "id": "boss30", "label": "🏆 נצח את הבוס בשלב 30" }
+    }
+  ]
+}

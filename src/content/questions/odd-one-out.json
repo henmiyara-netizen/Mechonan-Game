@@ -1,0 +1,207 @@
+{
+  "topic": "oddOneOut",
+  "topicLabel": "יוצא דופן",
+  "source": "מכון מיחונן — חוברת תרגול שלב ב', יוצא דופן מילולי (קובץ 1, ע' 18-20). תשובות אומתו מול מפתח התשובות הרשמי בעמוד 21.",
+  "_verificationStatus": "All correctIndex values verified against the official answer key on f1_p16. Question text is best-effort transcription with niqqud — uncommon vocabulary words may have minor reading errors marked _unverifiedText.",
+  "questions": [
+    {
+      "id": "odd.q1",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["בָּרָד", "בְּרֵכָה", "אֲגַם", "יָם"],
+      "correctIndex": 0
+    },
+    {
+      "id": "odd.q2",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["זְרוֹעַ", "בֶּרֶךְ", "שׁוֹק", "יָרֵךְ"],
+      "correctIndex": 0
+    },
+    {
+      "id": "odd.q3",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["לֵיצָן", "טִפֵּשׁ", "לֵץ", "מוּקְיוֹן"],
+      "correctIndex": 1
+    },
+    {
+      "id": "odd.q4",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["עוֹלָל", "תִּינוֹק", "דַּק", "פָּעוֹט"],
+      "correctIndex": 2,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q5",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["זֶבֶל", "אַשְׁפָּה", "פְּסֹלֶת", "פַּח"],
+      "correctIndex": 1
+    },
+    {
+      "id": "odd.q6",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["בְּדִיקָה", "מְצִיאָה", "חִפּוּשׂ", "סְקִירָה"],
+      "correctIndex": 1
+    },
+    {
+      "id": "odd.q7",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["מָהֵר", "אַט", "הִתְמַהְמַהּ", "רָץ"],
+      "correctIndex": 0
+    },
+    {
+      "id": "odd.q8",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["תָּוִים", "פְּסַנְתֵּר", "גִּיטָרָה", "קָסִילוֹפוֹן"],
+      "correctIndex": 1,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q9",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["עָמֵל", "עָצֵל", "בַּטְלָן", "עַצְלָן"],
+      "correctIndex": 0
+    },
+    {
+      "id": "odd.q10",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["פִּיּוּס", "וִכּוּחַ", "רִיב", "מַחְלֹקֶת"],
+      "correctIndex": 0
+    },
+    {
+      "id": "odd.q11",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["אָדִישׁ", "מַצִּיב", "נֶחְסָד", "חָמוּד"],
+      "correctIndex": 0,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q12",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["מְנֻמְנָם", "מִתְרַגֵּז", "זוֹעֵף", "כּוֹעֵס"],
+      "correctIndex": 0
+    },
+    {
+      "id": "odd.q13",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["סָלָט", "תַּנּוּר", "מִקְרֵר", "שֻׁלְחָן"],
+      "correctIndex": 0,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q14",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["סֵדֶר", "בִּלְגָּן", "מַהְפֵּכָה", "אִי-סֵדֶר"],
+      "correctIndex": 0
+    },
+    {
+      "id": "odd.q15",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["מַיִם", "מִיץ", "אֲבָטִיחַ", "תַּפּוּז"],
+      "correctIndex": 2,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q16",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["טִיעוּן", "שְׁגֵגָה", "בִּיצָה", "שְׁאֵרִית"],
+      "correctIndex": 2,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q17",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["שֶׁמֶשׁ", "נֵר", "פָּנָס", "מְנוֹרָה"],
+      "correctIndex": 0
+    },
+    {
+      "id": "odd.q18",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["לוֹנְדּוֹן", "תֵּל אָבִיב", "פָּרִיס", "יְרוּשָׁלַיִם"],
+      "correctIndex": 0,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q19",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["סְטַנְגוֹ", "צִבְעוֹנִי", "סָגֹל", "רַב-גוֹנִי"],
+      "correctIndex": 1,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q20",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["שִׂמְחָה", "צַעַר", "אֹשֶׁר", "עֲלִיצוּת"],
+      "correctIndex": 1,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q21",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["תֵּל אָבִיב", "חֵיפָה", "מִינָה", "נַהֲרִיָּה"],
+      "correctIndex": 0,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q22",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["צִנְצֶנֶת", "ג'ִירָפָה", "סוּס", "סוּף"],
+      "correctIndex": 3,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q23",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["עָפָר", "אֲדָמָה", "אֲבָנִים", "הוֹד"],
+      "correctIndex": 1,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q24",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["רִקּוּד", "מַנְגִּינָה", "אוֹפֶּרָה", "רוּסָה"],
+      "correctIndex": 2,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q25",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["מַזָּל", "סִכּוּי", "סִיכּוּן", "סְפֹג"],
+      "correctIndex": 3,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q26",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["בַּיִת", "בִּגְדּוֹל", "קַסְטָה", "מַנְעוּל"],
+      "correctIndex": 2,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q27",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["יוֹנָה", "תַּכּוֹל", "תַּרְנְגֹלֶת", "נֶשֶׁר"],
+      "correctIndex": 1,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q28",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["אֶצְבַּע", "עֵץ", "אַף", "פֶּה"],
+      "correctIndex": 1,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q29",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["סַל", "צַלַּחַת", "מַזְלֵג", "כַּף"],
+      "correctIndex": 1,
+      "_unverifiedText": true
+    },
+    {
+      "id": "odd.q30",
+      "body": "אֵיזוֹ מִלָּה יוֹצֵאת דֹּפֶן?",
+      "choices": ["כֻּלָּה", "מַעְבָּרָה", "תְּעֻלָּה", "קַרְנוּעַ"],
+      "correctIndex": 2,
+      "_unverifiedText": true
+    }
+  ]
+}

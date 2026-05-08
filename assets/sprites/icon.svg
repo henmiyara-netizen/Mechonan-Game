@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#1a2452"/>
+      <stop offset="60%" stop-color="#0a0e1a"/>
+      <stop offset="100%" stop-color="#06091a"/>
+    </radialGradient>
+    <linearGradient id="ship" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5cb3ff"/>
+      <stop offset="100%" stop-color="#2360b5"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe066"/>
+      <stop offset="100%" stop-color="#ff5b8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- Stars -->
+  <g fill="#dce6ff">
+    <circle cx="80" cy="100" r="2"/>
+    <circle cx="430" cy="80" r="3"/>
+    <circle cx="120" cy="380" r="2"/>
+    <circle cx="380" cy="420" r="2"/>
+    <circle cx="60" cy="260" r="1.5"/>
+    <circle cx="450" cy="280" r="2"/>
+    <circle cx="220" cy="60" r="1.5"/>
+    <circle cx="280" cy="450" r="2"/>
+    <circle cx="160" cy="200" r="1.5"/>
+    <circle cx="350" cy="220" r="1.5"/>
+  </g>
+  <!-- Ship body -->
+  <g transform="translate(256 280)">
+    <polygon points="0,-90 90,90 30,50 -30,50 -90,90" fill="url(#ship)" stroke="#fff" stroke-opacity="0.2" stroke-width="2"/>
+    <circle cx="0" cy="-10" r="22" fill="#ffe066"/>
+    <polygon points="-30,50 30,50 0,110" fill="url(#flame)" opacity="0.95"/>
+  </g>
+</svg>

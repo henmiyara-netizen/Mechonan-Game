@@ -1,0 +1,336 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "סקאוטים מהכוכב הקרוב",
+      "waves": [
+        { "kind": "spawn", "type": "drone", "count": 4, "cols": 4, "spacing": 0.45, "rowDelay": 0.6 },
+        { "kind": "spawn", "type": "drone", "count": 6, "cols": 3, "spacing": 0.30, "rowDelay": 0.5 },
+        { "kind": "spawn", "type": "zigzag", "count": 4, "cols": 2, "spacing": 0.40, "rowDelay": 0.6,
+          "endQuestion": { "topic": "math" } },
+        { "kind": "spawn", "type": "drone", "count": 8, "cols": 4, "spacing": 0.22, "rowDelay": 0.4 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "גדודי החייזרים",
+      "waves": [
+        { "kind": "spawn", "type": "drone", "count": 6, "cols": 6, "spacing": 0.18, "rowDelay": 0.4 },
+        { "kind": "spawn", "type": "fast", "count": 5, "cols": 5, "spacing": 0.20 },
+        { "kind": "spawn", "type": "zigzag", "count": 6, "cols": 3, "spacing": 0.25, "rowDelay": 0.5,
+          "endQuestion": { "topic": "sentence" } },
+        { "kind": "spawn", "type": "drone", "count": 8, "cols": 4, "spacing": 0.16 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "אנרגיית האסטרואידים",
+      "waves": [
+        { "kind": "spawn", "type": "fast", "count": 6, "cols": 6, "spacing": 0.18 },
+        { "kind": "asteroid-quiz", "topic": "math" },
+        { "kind": "spawn", "type": "zigzag", "count": 6, "cols": 3, "spacing": 0.25, "rowDelay": 0.5 },
+        { "kind": "spawn", "type": "drone", "count": 9, "cols": 3, "spacing": 0.18, "rowDelay": 0.4 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ספינות משוריינות",
+      "waves": [
+        { "kind": "spawn", "type": "drone", "count": 6, "cols": 3, "spacing": 0.20 },
+        { "kind": "spawn", "type": "armored", "count": 3, "cols": 3, "spacing": 0.4,
+          "endQuestion": { "topic": "relations" } },
+        { "kind": "spawn", "type": "zigzag", "count": 6, "cols": 3, "spacing": 0.25 },
+        { "kind": "spawn", "type": "fast", "count": 8, "cols": 4, "spacing": 0.15 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "המתקפה הראשונה",
+      "waves": [
+        { "kind": "spawn", "type": "shooter", "count": 3, "cols": 3, "spacing": 0.3 },
+        { "kind": "asteroid-quiz", "topic": "math" },
+        { "kind": "spawn", "type": "drone", "count": 9, "cols": 3, "spacing": 0.18 },
+        { "kind": "spawn", "type": "armored", "count": 2, "cols": 2, "spacing": 0.5,
+          "endQuestion": { "topic": "math" } },
+        { "kind": "spawn", "type": "fast", "count": 6, "cols": 6, "spacing": 0.16 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "התקפת זיגזג",
+      "waves": [
+        { "kind": "spawn", "type": "zigzag", "count": 8, "cols": 4, "spacing": 0.18 },
+        { "kind": "spawn", "type": "zigShooter", "count": 3, "cols": 3, "spacing": 0.4 },
+        { "kind": "spawn", "type": "drone", "count": 6, "cols": 3, "spacing": 0.20,
+          "endQuestion": { "topic": "shapes" } },
+        { "kind": "spawn", "type": "drone", "count": 8, "cols": 4, "spacing": 0.18 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "שולחי הקמיקזה",
+      "waves": [
+        { "kind": "spawn", "type": "drone", "count": 6, "cols": 6, "spacing": 0.16 },
+        { "kind": "spawn", "type": "kamikaze", "count": 3, "cols": 3, "spacing": 0.6,
+          "endQuestion": { "topic": "math" } },
+        { "kind": "spawn", "type": "shooter", "count": 4, "cols": 4, "spacing": 0.3 },
+        { "kind": "spawn", "type": "armored", "count": 3, "cols": 3, "spacing": 0.4 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "צוללי המעמקים",
+      "waves": [
+        { "kind": "spawn", "type": "diver", "count": 4, "cols": 4, "spacing": 0.4 },
+        { "kind": "spawn", "type": "drone", "count": 4, "cols": 2, "spacing": 0.30,
+          "endQuestion": { "topic": "sequences" } },
+        { "kind": "spawn", "type": "shooter", "count": 4, "cols": 4, "spacing": 0.3 },
+        { "kind": "spawn", "type": "kamikaze", "count": 3, "cols": 3, "spacing": 0.5 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "המפצלים",
+      "waves": [
+        { "kind": "spawn", "type": "splitter", "count": 2, "cols": 2, "spacing": 0.6 },
+        { "kind": "spawn", "type": "fast", "count": 8, "cols": 4, "spacing": 0.16,
+          "endQuestion": { "topic": "sentence" } },
+        { "kind": "spawn", "type": "zigShooter", "count": 4, "cols": 4, "spacing": 0.3 },
+        { "kind": "spawn", "type": "splitter", "count": 3, "cols": 3, "spacing": 0.5 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "🏆 בוס המבחן הראשון",
+      "isMidtest": true,
+      "midtest": {
+        "questionsPerTopic": 2,
+        "topics": ["math", "sentence", "relations", "shapes", "sequences"]
+      },
+      "waves": [
+        { "kind": "spawn", "type": "tank", "count": 3, "cols": 3, "spacing": 0.6 },
+        { "kind": "spawn", "type": "armored", "count": 6, "cols": 3, "spacing": 0.3 },
+        { "kind": "spawn", "type": "shooter", "count": 4, "cols": 4, "spacing": 0.3 }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "ארץ הנחיל",
+      "waves": [
+        { "kind": "spawn", "type": "swarmer", "count": 8, "cols": 4, "spacing": 0.18 },
+        { "kind": "spawn", "type": "swarmer", "count": 10, "cols": 5, "spacing": 0.15,
+          "endQuestion": { "topic": "math" } },
+        { "kind": "spawn", "type": "fast", "count": 6, "cols": 3, "spacing": 0.20 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "מפציצים מתקרבים",
+      "waves": [
+        { "kind": "spawn", "type": "bomber", "count": 2, "cols": 2, "spacing": 0.6 },
+        { "kind": "spawn", "type": "shooter", "count": 4, "cols": 4, "spacing": 0.3 },
+        { "kind": "asteroid-quiz", "topic": "shapes" },
+        { "kind": "spawn", "type": "bomber", "count": 3, "cols": 3, "spacing": 0.5 }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "צלפי הכוכב",
+      "waves": [
+        { "kind": "spawn", "type": "sniper", "count": 3, "cols": 3, "spacing": 0.5 },
+        { "kind": "spawn", "type": "drone", "count": 8, "cols": 4, "spacing": 0.18,
+          "endQuestion": { "topic": "sentence" } },
+        { "kind": "spawn", "type": "sniper", "count": 4, "cols": 4, "spacing": 0.35 },
+        { "kind": "spawn", "type": "speedy", "count": 6, "cols": 3, "spacing": 0.18 }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "ברקי האויב",
+      "waves": [
+        { "kind": "spawn", "type": "speedy", "count": 8, "cols": 4, "spacing": 0.15 },
+        { "kind": "spawn", "type": "speedy", "count": 10, "cols": 5, "spacing": 0.12 },
+        { "kind": "asteroid-quiz", "topic": "sequences" },
+        { "kind": "spawn", "type": "fast", "count": 8, "cols": 4, "spacing": 0.16 }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "מגני האנרגיה",
+      "waves": [
+        { "kind": "spawn", "type": "shielded", "count": 2, "cols": 2, "spacing": 0.7 },
+        { "kind": "spawn", "type": "drone", "count": 6, "cols": 3, "spacing": 0.20,
+          "endQuestion": { "topic": "relations" } },
+        { "kind": "spawn", "type": "shielded", "count": 3, "cols": 3, "spacing": 0.6 },
+        { "kind": "spawn", "type": "armored", "count": 4, "cols": 2, "spacing": 0.4 }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "המרחפים",
+      "waves": [
+        { "kind": "spawn", "type": "hovering", "count": 4, "cols": 4, "spacing": 0.3 },
+        { "kind": "spawn", "type": "drone", "count": 8, "cols": 4, "spacing": 0.18 },
+        { "kind": "asteroid-quiz", "topic": "math" },
+        { "kind": "spawn", "type": "hovering", "count": 5, "cols": 3, "spacing": 0.3,
+          "endQuestion": { "topic": "shapes" } }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "הפולסרים",
+      "waves": [
+        { "kind": "spawn", "type": "pulser", "count": 1, "cols": 1, "spacing": 0.5 },
+        { "kind": "spawn", "type": "drone", "count": 8, "cols": 4, "spacing": 0.18 },
+        { "kind": "spawn", "type": "pulser", "count": 2, "cols": 2, "spacing": 0.7,
+          "endQuestion": { "topic": "sentence" } },
+        { "kind": "spawn", "type": "shooter", "count": 4, "cols": 4, "spacing": 0.3 }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "רוחות החלל",
+      "waves": [
+        { "kind": "spawn", "type": "ghost", "count": 4, "cols": 4, "spacing": 0.3 },
+        { "kind": "spawn", "type": "ghost", "count": 6, "cols": 3, "spacing": 0.25 },
+        { "kind": "asteroid-quiz", "topic": "relations" },
+        { "kind": "spawn", "type": "ghost", "count": 5, "cols": 5, "spacing": 0.20,
+          "endQuestion": { "topic": "sequences" } }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "המשוריינים-על",
+      "waves": [
+        { "kind": "spawn", "type": "juggernaut", "count": 1, "cols": 1, "spacing": 0.8 },
+        { "kind": "spawn", "type": "drone", "count": 6, "cols": 3, "spacing": 0.20,
+          "endQuestion": { "topic": "math" } },
+        { "kind": "spawn", "type": "juggernaut", "count": 2, "cols": 2, "spacing": 0.8 },
+        { "kind": "spawn", "type": "shielded", "count": 3, "cols": 3, "spacing": 0.5 }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "🏆 בוס המבחן השני",
+      "isMidtest": true,
+      "midtest": {
+        "questionsPerTopic": 3,
+        "topics": ["math", "sentence", "relations", "shapes", "sequences"]
+      },
+      "waves": [
+        { "kind": "spawn", "type": "miniBoss", "count": 1, "cols": 1, "spacing": 1.0 },
+        { "kind": "spawn", "type": "shielded", "count": 3, "cols": 3, "spacing": 0.5 },
+        { "kind": "spawn", "type": "shooter", "count": 6, "cols": 3, "spacing": 0.25 }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "התקפת הצללים",
+      "waves": [
+        { "kind": "spawn", "type": "ghost", "count": 6, "cols": 3, "spacing": 0.25 },
+        { "kind": "spawn", "type": "kamikaze", "count": 4, "cols": 4, "spacing": 0.4 },
+        { "kind": "asteroid-quiz", "topic": "shapes" },
+        { "kind": "spawn", "type": "speedy", "count": 8, "cols": 4, "spacing": 0.15 }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "נחיל מתפצל",
+      "waves": [
+        { "kind": "spawn", "type": "splitter", "count": 3, "cols": 3, "spacing": 0.5 },
+        { "kind": "spawn", "type": "swarmer", "count": 12, "cols": 6, "spacing": 0.12,
+          "endQuestion": { "topic": "math" } },
+        { "kind": "spawn", "type": "splitter", "count": 4, "cols": 4, "spacing": 0.4 }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "מפציצים וצלפים",
+      "waves": [
+        { "kind": "spawn", "type": "bomber", "count": 3, "cols": 3, "spacing": 0.5 },
+        { "kind": "spawn", "type": "sniper", "count": 4, "cols": 2, "spacing": 0.4 },
+        { "kind": "asteroid-quiz", "topic": "sentence" },
+        { "kind": "spawn", "type": "bomber", "count": 4, "cols": 2, "spacing": 0.5,
+          "endQuestion": { "topic": "relations" } }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "פולסרים בכוכב מרוחק",
+      "waves": [
+        { "kind": "spawn", "type": "pulser", "count": 2, "cols": 2, "spacing": 0.7 },
+        { "kind": "spawn", "type": "shielded", "count": 2, "cols": 2, "spacing": 0.6 },
+        { "kind": "asteroid-quiz", "topic": "sequences" },
+        { "kind": "spawn", "type": "pulser", "count": 3, "cols": 3, "spacing": 0.6 }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "המעבדה החייזרית",
+      "waves": [
+        { "kind": "spawn", "type": "shielded", "count": 3, "cols": 3, "spacing": 0.5 },
+        { "kind": "spawn", "type": "ghost", "count": 4, "cols": 4, "spacing": 0.3 },
+        { "kind": "spawn", "type": "hovering", "count": 4, "cols": 4, "spacing": 0.3,
+          "endQuestion": { "topic": "shapes" } },
+        { "kind": "spawn", "type": "juggernaut", "count": 1, "cols": 1, "spacing": 0.9 }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "אזעקה אדומה",
+      "waves": [
+        { "kind": "spawn", "type": "kamikaze", "count": 6, "cols": 3, "spacing": 0.30 },
+        { "kind": "spawn", "type": "speedy", "count": 10, "cols": 5, "spacing": 0.15,
+          "endQuestion": { "topic": "math" } },
+        { "kind": "spawn", "type": "kamikaze", "count": 8, "cols": 4, "spacing": 0.25 }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "כוחות מיוחדים",
+      "waves": [
+        { "kind": "spawn", "type": "diver", "count": 4, "cols": 4, "spacing": 0.4 },
+        { "kind": "spawn", "type": "sniper", "count": 4, "cols": 4, "spacing": 0.35 },
+        { "kind": "asteroid-quiz", "topic": "relations" },
+        { "kind": "spawn", "type": "shielded", "count": 3, "cols": 3, "spacing": 0.5 }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "סופת אסטרואידים",
+      "waves": [
+        { "kind": "asteroid-quiz", "topic": "shapes" },
+        { "kind": "asteroid-quiz", "topic": "sequences" },
+        { "kind": "spawn", "type": "swarmer", "count": 12, "cols": 6, "spacing": 0.10 },
+        { "kind": "spawn", "type": "speedy", "count": 8, "cols": 4, "spacing": 0.15 }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "השער לבוס",
+      "waves": [
+        { "kind": "spawn", "type": "juggernaut", "count": 2, "cols": 2, "spacing": 0.8 },
+        { "kind": "spawn", "type": "pulser", "count": 2, "cols": 2, "spacing": 0.7 },
+        { "kind": "spawn", "type": "shielded", "count": 4, "cols": 2, "spacing": 0.5,
+          "endQuestion": { "topic": "math" } },
+        { "kind": "spawn", "type": "bomber", "count": 4, "cols": 4, "spacing": 0.4 }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "🏆 בוס המבחן השלישי",
+      "isMidtest": true,
+      "midtest": {
+        "questionsPerTopic": 3,
+        "topics": ["math", "sentence", "relations", "shapes", "sequences"]
+      },
+      "waves": [
+        { "kind": "spawn", "type": "miniBoss", "count": 1, "cols": 1, "spacing": 1.0 },
+        { "kind": "spawn", "type": "juggernaut", "count": 2, "cols": 2, "spacing": 0.8 },
+        { "kind": "spawn", "type": "pulser", "count": 2, "cols": 2, "spacing": 0.7 },
+        { "kind": "spawn", "type": "shielded", "count": 3, "cols": 3, "spacing": 0.5 }
+      ]
+    }
+  ],
+  "_notes": "Phase 2 done — levels 1-30. Phase 3 will add levels 31-60."
+}
