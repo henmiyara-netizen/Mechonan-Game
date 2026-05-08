@@ -1,8 +1,8 @@
 {
   "topic": "oddOneOut",
   "topicLabel": "יוצא דופן",
-  "source": "מכון מיחונן — חוברת תרגול שלב ב', יוצא דופן מילולי (קובץ 1, ע' 18-20). תשובות אומתו מול מפתח התשובות הרשמי בעמוד 21.",
-  "_verificationStatus": "All correctIndex values verified against the official answer key on f1_p16. Question text is best-effort transcription with niqqud — uncommon vocabulary words may have minor reading errors marked _unverifiedText.",
+  "source": "חוברת תרגול שלב ב' — יוצא דופן מילולי. תשובות אומתו מול מפתח התשובות הרשמי.",
+  "_verificationStatus": "All correctIndex values verified against the official answer key. Question text is best-effort transcription with niqqud — uncommon vocabulary words may have minor reading errors marked _unverifiedText.",
   "questions": [
     {
       "id": "odd.q1",

@@ -108,7 +108,7 @@ document.getElementById("btn-credits").addEventListener("click", async () => {
   sfx.play("ui.click");
   await showAlert({
     title: "מסע חכם בגלקסיה",
-    message: "משחק עזר להכנה למבחן המחוננים שלב ב'.\nפותח באהבה לבן (-:\nשאלות: מכון מיחונן (mihonan.co.il).",
+    message: "משחק עזר להכנה למבחן מחוננים שנבנה לבניי האהובים אורי ומיכאל מיארה ❤️",
     confirmLabel: "תודה!",
   });
 });

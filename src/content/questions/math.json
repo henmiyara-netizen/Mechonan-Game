@@ -1,8 +1,8 @@
 {
   "topic": "math",
   "topicLabel": "חֶשְׁבּוֹן",
-  "source": "מכון מיחונן — חוברת תרגול שלב ב', בעיות חשבון מילוליות (קובץ 1, ע' 7-12)",
-  "_verificationStatus": "All correctIndex values verified against the official answer key on f1_p09 (booklet page 14). Question bodies use niqqud (best-effort transcription); ones marked _unverifiedText may have minor errors due to scan quality and should be visually compared to the original booklet.",
+  "source": "חוברת תרגול שלב ב', בעיות חשבון מילוליות",
+  "_verificationStatus": "All correctIndex values verified against the official answer key. Question bodies use niqqud (best-effort transcription); ones marked _unverifiedText may have minor errors due to scan quality.",
   "questions": [
     {
       "id": "math.f1q25",
