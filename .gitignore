@@ -26,3 +26,26 @@ Thumbs.db
 
 # Local logs / cache
 *.log
+
+# ---- חסימות אבטחה שנוספו 11.09.2026 ----
+.credentials.json
+*.pem
+*.key
+id_rsa*
+desktop.ini
+# ============================================================
+#  חורים שנסגרו 11.09.2026 אחרי מבחן שבירה
+# ============================================================
+.env
+.env.*
+!.env.example
+*secret*
+*token*.json
+venv/
+.venv/
+__pycache__/
+*.pyc
+dist/
+service-account*.json
+*.credentials
+build/
