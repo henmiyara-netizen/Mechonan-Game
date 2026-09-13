@@ -49,3 +49,50 @@ dist/
 service-account*.json
 *.credentials
 build/
+
+# ── חסימת סודות אחידה · Sync-Manager ── אל תערוך ידנית ──
+# נוסף אוטומטית 14.09.2026 אחרי שהתגלה שהמחסן הציבורי לא חסם
+# וריאציות של credential, וגם לא את גיבוי מפתח הסיסמאות של הדפדפן.
+# הכללים חלים על כל תת-תיקייה (**) ולא רק על השורש.
+
+**/.credentials.json
+**/*credential*
+**/*credentials*
+**/*secret*
+**/*password*
+**/*.env
+**/.env
+**/.env.*
+**/*token*.json
+**/*apikey*
+**/*api_key*
+**/service-account*.json
+**/*serviceaccount*.json
+**/*.pem
+**/*.key
+**/*.pfx
+**/*.p12
+**/*.jks
+**/*.keystore
+**/id_rsa*
+**/id_ed25519*
+**/*.ppk
+
+# --- מצב הדפדפן: הקובץ הזה מחזיק את מפתח ההצפנה של הסיסמאות ---
+**/Local State
+**/Local State.bak
+**/Login Data
+**/Login Data*
+**/Cookies
+**/Cookies-journal
+
+# --- גישה מרחוק ---
+**/user.conf
+**/ad.trace
+**/*.anydesk
+
+# --- חריגים מותרים: אלה דוגמאות, לא סודות ---
+!**/*.env.example
+!**/.env.example
+!**/*secret*.example
+# ── סוף חסימת הסודות האחידה ──
